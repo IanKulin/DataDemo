@@ -11,6 +11,7 @@
 		5616366C292772480014EE54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5616366B292772480014EE54 /* ContentView.swift */; };
 		5616366E292772480014EE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5616366D292772480014EE54 /* Assets.xcassets */; };
 		56163671292772480014EE54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56163670292772480014EE54 /* Preview Assets.xcassets */; };
+		56C04FF029287A7700F5343E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C04FEF29287A7700F5343E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5616366B292772480014EE54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5616366D292772480014EE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56163670292772480014EE54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56C04FEF29287A7700F5343E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				56163669292772480014EE54 /* DataDemoApp.swift */,
 				5616366B292772480014EE54 /* ContentView.swift */,
+				56C04FEF29287A7700F5343E /* DetailView.swift */,
 				5616366D292772480014EE54 /* Assets.xcassets */,
 				5616366F292772480014EE54 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5616366C292772480014EE54 /* ContentView.swift in Sources */,
+				56C04FF029287A7700F5343E /* DetailView.swift in Sources */,
 				5616366A292772480014EE54 /* DataDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +283,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.kulin-ian.DataDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -308,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.kulin-ian.DataDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
