@@ -13,21 +13,21 @@ struct DetailView: View {
     
     var body: some View {
         VStack {
-            Text(garden.name)
+            Text(garden.wrappedName)
                 .font(.headline)
-            Text(garden.address)
-            List {
-                ForEach(garden.plants, id: \.id) {plant in
-                    Text(plant.name)
-                }
-            }
+            Text(garden.wrappedAddress)
+//            List {
+//                ForEach(garden.plants, id: \.id) {plant in
+//                    Text(plant.name)
+//                }
+//            }
         }
     }
 }
 
 
-struct DetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailView(garden: Garden(id:UUID(), name: "Some Garden", address: "Some address", plants: []))
-    }
-}
+//struct DetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DetailView(garden: Garden(id:UUID(), name: "Some Garden", address: "Some address", plants: []))
+//    }
+//}
