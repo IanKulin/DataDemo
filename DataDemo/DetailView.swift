@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct DetailView: View {
     var garden: Garden
     
@@ -23,6 +24,7 @@ struct DetailView: View {
         }
     }
 }
+
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {

@@ -70,11 +70,6 @@ struct ContentView: View {
 }
 
 
-//func mutate(_ garden: Garden) {
-//    garden.name = "Mutated"
-//}
-
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
