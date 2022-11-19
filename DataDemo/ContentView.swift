@@ -53,6 +53,7 @@ struct ContentView: View {
                     someGarden.id = UUID()
                     someGarden.name = "Gordon Terrace"
                     someGarden.address = "95 Learmouth St\nTahara Vic 3301"
+                    someGarden.plants =[]
                     gardens.append(someGarden)
                     someGarden.id = UUID()
                     someGarden.name = "Powlett Cottage"
