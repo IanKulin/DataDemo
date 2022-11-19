@@ -8,20 +8,6 @@
 import SwiftUI
 
 
-struct Plant {
-    var id = UUID()
-    var name: String
-}
-
-
-struct Garden {
-    var id = UUID()
-    var name = ""
-    var address = ""
-    var plants: [Plant] = []
-}
-
-
 struct ContentView: View {
     
     @State private var gardens: [Garden] = []
