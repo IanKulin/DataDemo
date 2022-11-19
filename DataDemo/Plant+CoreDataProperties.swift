@@ -19,6 +19,10 @@ extension Plant {
     @NSManaged public var id: UUID?
     @NSManaged public var name: String?
     @NSManaged public var garden: Garden?
+    
+    var wrappedName: String {
+        name ?? "Unknown"
+    }
 
 }
 

@@ -20,6 +20,13 @@ extension Garden {
     @NSManaged public var id: UUID?
     @NSManaged public var name: String?
     @NSManaged public var plant: NSSet?
+    
+    var wrappedName: String {
+        name ?? "Unknown"
+    }
+    var wrappedAddress: String {
+        address ?? "Unknown"
+    }
 
 }
 
