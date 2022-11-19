@@ -10,7 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var gardens: [Garden] = []
+    @Environment(\.managedObjectContext) var moc
+    
+    @FetchRequest(sortDescriptors: [
+        SortDescriptor(\.name)
+    ]) var gardens: FetchedResults<Garden>
     
     var body: some View {
         NavigationView {
